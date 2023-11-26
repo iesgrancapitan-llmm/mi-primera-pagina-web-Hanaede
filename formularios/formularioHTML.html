@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description” content="Formulario HTML"/>
+    <meta name=”keywords” content="HTML5, CSS3"/>
+    <meta name=”Author” content="Kike Mariño">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">Mi primera página web</a>
+        <a href="/semantico/semantico.html">HTML Semántico</a>
+        <a href="/selectores/selectores.html">Selectores</a>
+        <a href="/listas/listas.html">Listas</a>
+        <a href="/horario/horario.html">Horario</a>
+        <a href="/formularios/formularios.html">Formularios</a>
+    </nav>
+
+    <form action="" method="get">
+        <div class="border">
+            <p>Datos personales</p>
+            <p>Nombre: <input type="text" name="name_control" autofocus required/></p>
+            <p>Correo electrónico: <input type="email" name="email_control" required/></p>
+            <p>URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal"/></p>
+            <p>
+                <label for="poblacion">Ciudad:</label>
+                <select name="ciudad" id="ciudad">
+                    <option>SEVILLA</option>
+                    <option>CÁDIZ</option>
+                    <option>MÁLAGA</option>
+                    <option>GRANADA</option>
+                </select> 
+            </p>
+        </div>
+        <div class="border">
+            <p>Otros Datos</p>
+            <p>Fecha: <input type="date" name="date_control"/></p>
+            <p>Tiempo: <input type="time" name="time_control"/></p>
+            <p>Fecha y hora: <input type="datetime" name="datetime_control"/></p>
+            <p>Mes: <input type="month" name="month_control"/></p>
+            <p>Semana: <input type="week" name="week_control"/></p>
+            <p>Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0"/></p>
+            <p>Teléfono: <input type="tel" name="tel_control"/></p>
+            <p>Término de búsqueda: <input type="search" name="search_control"/></p>
+            <p>Color favorito: <input type="color" name="color_control"/></p>
+        </div>
+        <div class="border">
+            <p>Otros controles</p>
+            <p>
+                Aficiones: <input type="checkbox" name="info" checked="checked"/>Cine
+                <input type="checkbox" name="info" checked="checked"/>Deporte
+            </p>
+            <p>
+                Formas de pago: <br>
+                <input type="radio" name="formas-de-pago" id="visa" value="v"/> <label for="visa">Visa</label> 
+                <input type="radio" name="formas-de-pago" id="american-express" value="american"/><label for="sexo-m">American Express</label>
+                <input type="radio" name="formas-de-pago" id="mastercard" value="master"/><label for="mastercard">MasterCard</label>
+            </p>
+        </div>
+        <div class="button">
+            <p><input type="submit" value="Enviar"/></p>
+            <p><input type="submit" value="Borrar"/></p>
+        </div> 
+    </form>
+</body>
