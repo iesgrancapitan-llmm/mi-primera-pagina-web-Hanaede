@@ -1,5 +1,37 @@
+/* GLOBALES */
 body {
     background-color: #f4f5f5;
+}
+td {
+    width: 16%;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 0.2em;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #788AA3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff9900;
+}
+
+/* HORARIO */
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
 }
 .llmm {
     color: #f4f5f5;
@@ -34,25 +66,9 @@ body {
 .recreo {
     text-align: center;
 }
-nav {
-    display: flex;
-    justify-content:space-around;
-    max-width: auto;
-    padding: 0.2em;
-}
-nav ul {
-    list-style-type: none;
-}
-nav a {
-    text-decoration: none;
-    color: #788AA3;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-nav a:hover {
-    color: #ff9900;
-}
 
+
+/* BOTÓN */
 .border {
     padding-left: 0.8em;
     border: 2px solid #202221;
