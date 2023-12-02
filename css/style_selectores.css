@@ -1,0 +1,63 @@
+/* TODOS LOS ELEMENTOS */
+*
+{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TODOS LOS PÁRRAFOS */
+p
+{
+  color: #555;
+}
+
+/* PÁRRAFOS EN ID PRIMERO */
+#primero p
+{
+  color: #369;
+}
+
+/* ENLACES */
+a
+{
+  color: #C30;
+}
+
+/* ELEMENTOS EM CONTENIDOS EN ID PRIMERO */
+#primero em
+{
+  color: #0000BB;
+  background-color: #FFFFCC;
+}
+
+/* ELEMENOTS EM CON CLASE ESPECIAL */
+em.especial
+{
+  color: #FFFF00;
+  background: #000000;
+}
+
+/* ELEMENTOS SPAN CONTENIDOS EN CLASE NORMAL */
+.normal span
+{
+  font-weight: bold;
+} 
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content:space-around;
+  padding: 0.2em;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: #788AA3;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ff9900;
+}

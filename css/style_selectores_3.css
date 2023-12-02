@@ -1,0 +1,45 @@
+ /* ENLACES DE UL */
+ul a {
+    color: #F00;
+    text-decoration: none;
+}
+
+ul a:visited {
+    color: #0A0;
+}
+
+ul a:hover {
+    color: #FFF;
+    background-color: #F00;
+    text-decoration: underline;
+}
+
+ul a:focus {
+    color: #00F;
+    text-decoration: underline;
+}
+
+ul a:active {
+    color: #F60;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 0.2em;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #788AA3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff9900;
+}

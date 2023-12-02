@@ -1,0 +1,43 @@
+/* BORDE DE LA TABLA */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* FILAS DE LA TABLA */
+#fila1 {color: teal;}
+#fila2 {color: red;}
+#fila3 {color: blue;}
+#fila4 {color: orange;}
+#fila5 {color: purple;}
+#fila6 {color: olive;}
+#fila7 {color: fuchsia;}
+#fila8 {color: green;}
+
+
+/* SSEGUNDA COLUMNA */
+td + td {background-color: red;}
+
+/* TERCERA COLUMNA */
+td + td + td {background-color: green;}
+
+/* CUARTA COLUMNA */
+td + td + td + td {background-color: blue;}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 0.2em;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #788AA3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff9900;
+}
