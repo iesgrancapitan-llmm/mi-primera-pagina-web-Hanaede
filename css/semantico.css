@@ -1,0 +1,52 @@
+/* NAV */
+nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 0.2em;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #788AA3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff9900;
+}
+
+/* GID-AREA */
+#page {
+    display: grid;
+    grid-template-areas:
+      "head head"
+      "nav  nav"
+      "main aside"
+      "main aside"
+      "foot foot";
+    grid-template-rows: 70px 2fr 40px;
+    grid-template-columns: 150px 1fr;
+    column-gap: 100px;
+  }
+  
+  #page > header {
+    grid-area: head;
+  }
+  
+  #page > nav {
+    grid-area: nav;
+  }
+  
+  #page > aside {
+    grid-area: aside;
+  }
+  
+  #page > main {
+    grid-area: main;
+  }
+  
+  #page > footer {
+    grid-area: foot;
+  }
