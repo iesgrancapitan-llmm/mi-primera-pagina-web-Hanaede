@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 84, 104);
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    background-color: green;
+}
+
+h2 {
+    background-color: greenyellow;
+}
+
+nav {
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos .right{
+    display: flex;
+    width: 8em;
+    aspect-ratio: 3/2;
+    padding: 10px;
+    margin: 10px;
+    object-fit: contain;
+    float: right;
+    border: 2px solid orange;
+    background-color: lightblue;;
+}
+
+.logos .left {
+    width: 8em;
+    aspect-ratio: 3/2;
+    padding: 10px;
+    margin: 10px;
+    object-fit: contain;
+    float: left;
+    border: 2px solid orange;
+    background-color: lightgreen;
+}
