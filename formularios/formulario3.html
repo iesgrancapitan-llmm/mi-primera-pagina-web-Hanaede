@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description” content="Mi primera página web"/>
+    <meta name=”keywords” content="HTML5, CSS3"/>
+    <meta name=”Author” content="Kike Mariño">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Controles de formulario</h1>
+        <form action="" method="GET">
+            <fieldset>
+                <legend> Datos personales </legend>
+                <label for="nombre">Nombre:
+                    <input type="text" name="nombre" id="nombre" required autofocus>
+                </label>
+                <p>
+                    <label for="correo">Correo:
+                        <input type="email" name="correo" id="correo" placeholder="ejemplo1@gmail.com" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="url">URL:
+                        <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web personal">
+                    </label>
+                </p>
+                <p>
+                    <label for="poblacion">Población:
+                        <select id="poblacion" name="poblacion" multiple>
+                            <option value="Granada">Granada</option>
+                            <option value="Almería">Almería</option>
+                            <option value="Málaga">Málaga</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Jaen">Jaen</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cádiz">Cádiz</option>
+                            <option value="Sevilla" selected>Sevilla</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend> Otros datos </legend>
+                <label for="fecha">Fecha:
+                    <input type="date" name="fecha" id="fecha">
+                </label>
+                <p>
+                    <label for="tiempo">Tiempo:
+                        <input type="time" name="tiempo" id="tiempo">
+                    </label>
+                </p>
+                <p>
+                    <label for="fecha_hora">Fecha y hora:
+                        <input type="datetime-local" name="fecha_hora" id="fecha_hora">
+                    </label>
+                </p>
+                <p>
+                    <label for="mes">Mes:
+                        <input type="month" name="mes" id="mes">
+                    </label>
+                </p>
+                <p>
+                    <label for="semana">Semana:
+                        <input type="week" name="semana" id="semana">
+                    </label>
+                </p>
+                <p>
+                    <label for="numero">Número entre -10 y 10:
+                        <input type="number" name="numero" id="numero" min="-10" max="10">
+                    </label>
+                </p>
+                <p>
+                    <label for="telefono">Teléfono:
+                        <input type="tel" name="telefono" id="telefono">
+                    </label>
+                </p>
+                <p>
+                    <label for="busqueda">Término de búsqueda:
+                        <input type="search" name="busqueda" id="busqueda">
+                    </label>
+                </p>
+                <label for="color">Color favorito:
+                    <input type="color" name="color" id="color">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Otros controles</legend>
+                <p>Aficiones:
+                    <label for="cine">
+                        <input type="checkbox" name="cine" id="cine" checked>Cine
+                    </label>
+                    <label for="deporte">
+                        <input type="checkbox" name="deporte" id="deporte">Deporte
+                    </label>
+                </p>
+                <p>Forma de Pago:
+                    <label>
+                        <input type="radio" id="visa" name="pago" value="V">Visa
+                    </label>
+                    <label>
+                        <input type="radio" id="amex" name="pago" value="A">American Express
+                    </label>
+                    <label>
+                        <input type="radio" id="mastercard" name="pago" value="M">Mastercard
+                    </label>
+                </p>
+            </fieldset>
+            <p></p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+            <p></p>
+        </form>
+</body>
