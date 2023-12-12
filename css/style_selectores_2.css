@@ -12,6 +12,30 @@ td:nth-of-type(3) {
 td:nth-of-type(4) {
     background-color: blue;
 }
+tr:nth-of-type(1) {
+    color: teal;
+}
+tr:nth-of-type(2) {
+    color: red;
+}
+tr:nth-of-type(3) {
+    color: blue;
+}
+tr:nth-of-type(4) {
+    color: orange;
+}
+tr:nth-of-type(5) {
+    color: purple;
+}
+tr:nth-of-type(6) {
+    color: olive;
+}
+tr:nth-of-type(7) {
+    color: fuchsia;
+}
+tr:nth-of-type(8) {
+    color: green;
+}
 
 /* NAV */
 nav {
