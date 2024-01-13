@@ -1,0 +1,182 @@
+section {
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-template-areas: 
+    "...    dia1     dia2    dia3    dia4   dia5"
+    "hora1  SI-l    llmm-m  EDD-x    fol-j    fol-v"
+    "hora2  SI-l    llmm-m  EDD-x     SI-j    fol-v"
+    "hora3  PRG-l1   SI-m1  llmm-x1   SI-j    bd-v1"
+    "hora7  recreo   recreo  recreo  recreo recreo"
+    "hora4  PRG-l2   SI-m2  llmm-x2   EDD-j     bd-v2"
+    "hora5  bd-l     PRG-m   bd-m    PRG-j    PRG-j"
+    "hora6  bd-l     PRG-m   bd-m    PRG-j    PRG-j"
+    ;
+}
+
+div {
+    border: 1px solid #202221;
+}
+
+/* ASIGNATURAS */
+.bd {
+    color: #f4f5f5;
+    background-color: #E4C1F9;
+    text-align: center;
+}
+.bd-v1 {
+    grid-area: bd-v1;
+}
+.bd-v2 {
+    grid-area: bd-v2;
+}
+.bd-l {
+    grid-area: bd-l;
+}
+.bd-m {
+    grid-area: bd-m;
+}
+
+.SI {
+    color: #f4f5f5;
+    background-color: #66C7F4;
+    text-align: center;
+}
+.SI-l {
+    grid-area: SI-l;
+}
+.SI-j {
+    grid-area: SI-j;
+}
+.SI-m1 {
+    grid-area: SI-m1;
+}
+.SI-m2 {
+    grid-area: SI-m2;
+}
+
+.PRG {
+    color: #f4f5f5;
+    background-color: #CA895F;
+    text-align: center;
+}
+.PRG-l1 {
+    grid-area: PRG-l1;
+ }
+.PRG-l2 {
+    grid-area: PRG-l2;
+ }
+.PRG-l1 {
+    grid-area: PRG-l1;
+ }
+.PRG-m {
+    grid-area: PRG-m;
+ }
+.PRG-j {
+    grid-area: PRG-j;
+ }
+
+.llmm {
+    color: #f4f5f5;
+    background-color: #8BBEB2;
+    text-align: center;
+}
+.llmm-m {
+    grid-area: llmm-m;
+}
+
+.llmm-x1 {
+    grid-area: llmm-x1;
+}
+.llmm-x2 {
+    grid-area: llmm-x2;
+}
+
+.EDD {
+    color: #f4f5f5;
+    background-color: #AFAFDC;
+    text-align: center;
+}
+.EDD-x {
+    grid-area: EDD-x;
+}
+.EDD-j {
+    grid-area: EDD-j;
+}
+
+.fol {
+    color: #f4f5f5;
+    background-color: #788AA3;
+    text-align: center;
+}
+.fol-j {
+    grid-area: fol-j;
+}
+.fol-v {
+    grid-area: fol-v;
+}
+#recreo {
+    text-align: center;
+}
+
+/* DIAS */
+.dia {
+    text-align: center;
+}
+#dia1 {
+    grid-area: dia1;
+}
+
+#dia2 {
+    grid-area: dia2;
+}
+
+#dia3 {
+    grid-area: dia3;
+}
+
+#dia4 {
+    grid-area: dia4;
+}
+
+#dia5 {
+    grid-area: dia5;
+}
+
+
+/* HORAS */
+.hora {
+    text-align: center;
+}
+#hora1 {
+    grid-area: hora1;
+}
+
+#hora2 {
+    grid-area: hora2;
+}
+
+#hora3 {
+    grid-area: hora3;
+}
+
+#hora4 {
+    grid-area: hora4;
+}
+
+#hora5 {
+    grid-area: hora5;
+}
+
+#hora6 {
+    grid-area: hora6;
+}
+
+#hora7 {
+    grid-area: hora7;
+}
+
+#recreo {
+    grid-area: recreo;
+}
+
+
