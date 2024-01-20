@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--FICHERO RSS DE EUROPA-->
+<rss version="2.0">
+  <channel>
+    <title>Destacados del pleno - Parlamento Europeo</title>
+    <link>https://www.europarl.europa.eu/news/es/agenda/briefing</link>
+    <description>Presenta los contenidos principales del orden del día del Parlamento antes de cada sesión plenaria, ofreciendo a los informadores los datos clave que necesitan para planificar su cobertura de la sesión y proponer temas a sus directores.</description>
+    <language>ES</language>
+    <copyright>© Unión Europea, 2024 - PE</copyright>
+    <pubDate>Wed, 17 Jan 2024 10:02:01 GMT</pubDate>
+    <item>
+      <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
+      <link>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</link>
+      <description>Destacados del pleno. Estrasburgo, 15-18 de enero 2024&lt;br /&gt; &lt;br /&gt;Fuente : &lt;a href="https://www.europarl.europa.eu/privacy-policy/es"&gt;© Unión Europea, 2024 - PE&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/newsletters/es.xml">Destacados del pleno - Parlamento Europeo</source>
+      <category domain="type">Destacados del pleno</category>
+      <pubDate>Thu, 11 Jan 2024 14:31:49 GMT</pubDate>
+      <guid isPermaLink="false">BRI_BRI-2024-01-08-16601_ES</guid>
+    </item>
+    <item>
+      <title>Destacados del pleno. Estrasburgo, 11-14 de diciembre 2023</title>
+      <link>https://www.europarl.europa.eu/news/es/agenda/briefing/2023-12-11</link>
+      <description>Destacados del pleno. Estrasburgo, 11-14 de diciembre 2023&lt;br /&gt; &lt;br /&gt;Fuente : &lt;a href="https://www.europarl.europa.eu/privacy-policy/es"&gt;© Unión Europea, 2023 - PE&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/newsletters/es.xml">Destacados del pleno - Parlamento Europeo</source>
+      <category domain="type">Destacados del pleno</category>
+      <pubDate>Thu, 07 Dec 2023 13:23:30 GMT</pubDate>
+      <guid isPermaLink="false">BRI_BRI-2023-11-27-15430_ES</guid>
+    </item>
+    <item>
+      <title>Destacados del pleno. Estrasburgo, 20-23 de noviembre 2023</title>
+      <link>https://www.europarl.europa.eu/news/es/agenda/briefing/2023-11-20</link>
+      <description>Destacados del pleno. Estrasburgo, 20-23 de noviembre 2023&lt;br /&gt; &lt;br /&gt;Fuente : &lt;a href="https://www.europarl.europa.eu/privacy-policy/es"&gt;© Unión Europea, 2023 - PE&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/newsletters/es.xml">Destacados del pleno - Parlamento Europeo</source>
+      <category domain="type">Destacados del pleno</category>
+      <pubDate>Thu, 16 Nov 2023 14:38:10 GMT</pubDate>
+      <guid isPermaLink="false">BRI_BRI-2023-11-10-10102_ES</guid>
+    </item>
+    <item>
+      <title>Destacados del pleno. Bruselas, 8-9 de noviembre 2023</title>
+      <link>https://www.europarl.europa.eu/news/es/agenda/briefing/2023-11-08</link>
+      <description>.&lt;br /&gt; &lt;br /&gt;Fuente : &lt;a href="https://www.europarl.europa.eu/privacy-policy/es"&gt;© Unión Europea, 2023 - PE&lt;/a&gt;</description>
+      <source url="https://www.europarl.europa.eu/rss/doc/newsletters/es.xml">Destacados del pleno - Parlamento Europeo</source>
+      <category domain="type">Destacados del pleno</category>
+      <pubDate>Tue, 07 Nov 2023 11:18:23 GMT</pubDate>
+      <guid isPermaLink="false">BRI_BRI-2023-10-23-08156_ES</guid>
+    </item>
+  </channel>
+</rss>
