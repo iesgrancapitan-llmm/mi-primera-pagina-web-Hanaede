@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias frescas de 2024</title>
+    <description>Hanaede presenta una lista de noticias interesantes</description>
+    <link>https://probable-adventure-1wk6mgl.pages.github.io/</link>
+    <category>Noticias</category>
+    <copyright>Enrique Mariño</copyright>
+    <language>es</language>
+    <lastBuildDate>Tue, 02 Jan 2024 13:00:00 GMT</lastBuildDate>
+    <managingEditor>enriquemarino.j@gmail.com (Enrique Mariño)</managingEditor>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <skipHours>
+      <hour>0</hour>
+      <hour>1</hour>
+      <hour>2</hour>
+      <hour>3</hour>
+      <hour>4</hour>
+      <hour>5</hour>
+    </skipHours>
+    <image>
+      <url>https://drive.google.com/file/d/1It0XXKYIxzQ64jQWv4QoIEBZnnUUrjwQ/view?usp=drive_link</url>
+      <title>Noticias</title>
+      <link>https://drive.google.com/file/d/1It0XXKYIxzQ64jQWv4QoIEBZnnUUrjwQ/view?usp=drive_link</link>
+    </image>
+    <item>
+      <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
+      <link>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</link>
+      <description>Destacados del pleno. Estrasburgo, 15-18 de enero 2024&lt;br /&gt; &lt;br /&gt;Fuente : &lt;a href="https://www.europarl.europa.eu/privacy-policy/es"&gt;© Unión Europea, 2024 - PE&lt;/a&gt;</description>
+      <author>parlamento@europeo.com</author>
+      <enclosure url="https://drive.google.com/file/d/17fWujXTEbtCyrsKDwD9dHPIKKYxyVev0/view?usp=drive_link"
+        length="3000"
+        type="image/jpg"/>
+      <pubDate>Thu, 18 Jan 2024 14:30:00 GMT</pubDate>
+      <source url="https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15">Destacado del pleno</source>
+    </item>
+    <item>
+      <title>Arteterapia: la psicología del arte</title>
+      <link>https://murciaplaza.com/arteterapia-la-psicologia-del-arte</link>
+      <description>Artículo sobre los beneficios del arte en psicología</description>
+      <author>murcia@plaza.com</author>
+      <enclosure url="https://drive.google.com/file/d/1g_cl_BJ7Tqrqrjk47rDXSHqURsvMNLhQ/view?usp=drive_link"
+        length="3000"
+        type="image/jpg"/>
+      <pubDate>Thu, 21 Jan 2021 15:00:00 GMT</pubDate>
+      <source url="https://murciaplaza.com/arteterapia-la-psicologia-del-art">Arteterapia</source>
+    </item>
+    <item>
+      <title>Nuevas reglas CSS y trucos</title>
+      <link>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</link>
+      <description>Recopilación sobre nueva sreglas de CSS</description>
+      <author>open@webinar.com</author>
+      <enclosure url="https://drive.google.com/file/d/1B2RnbpuEXgh_A-GzuUQPTMERiJ4NflZu/view?usp=drive_link"
+        length="3000"
+        type="image/jpg"/>
+      <pubDate>Fri, 27 Jan 2023 14:50:00 GMT</pubDate>
+      <source url="https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/">Open Webinar</source>
+    </item>
+    <item>
+      <title>Certificaciones GitHub</title>
+      <link>https://resources.github.com/learn/certifications/</link>
+      <description>GitHub saca nuevas certificaciones en 2024</description>
+      <author>github@certifications.com</author>
+      <enclosure url="https://drive.google.com/file/d/1WzQQ48Dz2vIaNDcUvcoV5nIQmbyhuFYs/view?usp=drive_link"
+        length="3000"
+        type="image/jpg"/>
+      <pubDate>Sat, 20 Jan 2024 16:30:00 GMT</pubDate>
+      <source url="https://resources.github.com/learn/certifications/">GitHub</source>
+    </item>
+  </channel>
+</rss>
