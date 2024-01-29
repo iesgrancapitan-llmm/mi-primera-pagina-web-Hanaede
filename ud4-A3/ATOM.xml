@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://stunning-adventure-634vz8r.pages.github.io/">
+    <title>Mi primera página web</title>
+    <subtitle>Primera página web de un estudiante de 1ºDAW del IES Gran Capitán</subtitle>
+    <link href="https://probable-adventure-1wk6mgl.pages.github.io/" rel="self"/>
+    <id>https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html</id>
+    <updated>2023-11-19T22:50:00Z</updated>
+    <author>
+        <name>Enrique Mariño Jiménez</name>
+        <email>enriquemarino.j@gmail.com</email>
+        <uri>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-2/tarea1.html</uri>
+    </author>
+    <category term="Desarrollo web"/>
+
+    <!--Entidades-->
+    <entry>
+        <id>https://probable-adventure-1wk6mgl.pages.github.io/</id>
+        <title>Mi primera página web</title>
+        <link href="https://probable-adventure-1wk6mgl.pages.github.io/"/>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+        </author>
+        <source>
+            <id>https://probable-adventure-1wk6mgl.pages.github.io/</id>
+            <title>Mi primera página web</title>
+            <updated>2023-11-29T20:50:00Z</updated>
+        </source>
+        <summary>Portforlio</summary>
+        <content type="image/png" src="./img/logo.png"/>
+        <updated>2023-11-19T20:50:00Z</updated>
+    </entry>
+
+    <entry>
+        <id>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</id>
+        <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
+        <link href="https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15"/>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+        </author>
+        <source>
+            <id>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</id>
+            <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
+            <updated>2023-10-25T21:50:00Z</updated>
+        </source>
+        <summary>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</summary>
+        <content type="image/png" src="./img/plenoeuropeo.png"/>
+        <updated>2023-10-25T21:50:00Z</updated>
+    </entry>
+    
+    <entry>
+        <id>https://murciaplaza.com/arteterapia-la-psicologia-del-arte</id>
+        <title>Arteterapia: la psicología del arte</title>
+        <link href="https://murciaplaza.com/arteterapia-la-psicologia-del-arte"/>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+        </author>
+        <source>
+            <id>https://murciaplaza.com/arteterapia-la-psicologia-del-arte</id>
+            <title>Arteterapia: la psicología del arte</title>
+            <updated>2023-08-12T21:47:00Z</updated>
+        </source>
+        <summary>Arteterapia: la psicología del arte</summary>
+        <updated>2023-08-12T21:47:00Z</updated>
+    </entry>
+
+    <entry>
+        <id>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</id>
+        <title>Nuevas reglas CSS y trucos</title>
+        <link href="https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/"/>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+        </author>
+        <source>
+            <id>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</id>
+            <title>Nuevas reglas CSS y trucos</title>
+            <updated>2021-03-13T20:38:00Z</updated>
+        </source>
+        <summary>Nuevas reglas CSS y trucos</summary>
+        <link rel="enclosure"
+              type="audio/mpeg"
+              title="MP3"
+              href="https://www.youtube.com/watch?v=8aryHZ8Z9WY&amp;ab_channel=midulive"
+              length="1234"></link>
+        <updated>2021-03-13T20:38:00Z</updated>
+    </entry>
+</feed>
