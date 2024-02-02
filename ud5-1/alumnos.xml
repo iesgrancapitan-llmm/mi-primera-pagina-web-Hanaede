@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML y crear esquema DTD: esto en xml copy editor-->
+<!--Para introducir uno externo en XML copy editor: se guarda y en el xml le das xml - asociar system dtt-->
+
+
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos (alumno+)>
+    <!ELEMENT alumno (nombre, apellido, ciclo, (nota_media|nota_final))>
+    <!ATTLIST alumno expediente CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT nota_media (#PCDATA)>
+    <!ELEMENT nota_final (#PCDATA)>
+]
+
+<alumnos>
+    <alumno expediente="A001">
+        <nombre>Kike</nombre>
+        <apellido>Mariño</apellido>
+        <ciclo>DAW</ciclo>
+        <nota_final>10</nota_final>
+    </alumno>
+    <alumno expediente="A002">
+        <nombre>Salva</nombre>
+        <apellido>Martínez</apellido>
+        <ciclo>DAW</ciclo>
+        <nota_media>9</nota_media>
+    </alumno>
+</alumnos>

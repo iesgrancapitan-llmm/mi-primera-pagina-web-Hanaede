@@ -1,0 +1,9 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, apellidos, ciclo, (nota_media | nota_final))>
+<!ATTLIST alumno
+          expediente CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT nota_final (#PCDATA)>
+<!ELEMENT nota_media (#PCDATA)>
