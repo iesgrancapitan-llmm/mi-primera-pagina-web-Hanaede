@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <titulo></titulo>
+    <!-- la inicial de titulo esta en mayuscula-->
+    <parrafo>El <abreviatura>XML</abreviatura>define cómo crear lenguajes de marcas.</parrafo>
+    <!-- La etiqueta parrado lleva tilde-->
+    <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo>
+    <http>www.example.org</http>
+    <!-- Etiquetas formadas como si fueran el principio de una url-->
+</texto>

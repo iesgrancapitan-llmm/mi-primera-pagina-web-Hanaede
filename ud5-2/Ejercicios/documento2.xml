@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE etiqueta SYSTEM "documento2.dtd">
+<!-- comento uno de los dos doctype para comprobar que el otro esta bien-->
+<!-- <!DOCTYPE etiqueta [
+    <!ELEMENT etiqueta (nombre,calle,ciudad,pais,codigo)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT codigo (#PCDATA)>
+]> -->
+<etiqueta>
+    <nombre>Roberto García</nombre>
+    <calle>c/ Mayor, 27</calle>
+    <ciudad>Coslada</ciudad>
+    <pais>España</pais>
+    <codigo>39343</codigo>
+</etiqueta>

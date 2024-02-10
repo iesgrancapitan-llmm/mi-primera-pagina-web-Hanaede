@@ -1,0 +1,26 @@
+<!ELEMENT Factura (cabecera,apunte+)>
+<!ELEMENT cabecera (fecha,cliente)>
+<!ATTLIST cabecera factura_id CDATA #REQUIRED>
+<!ELEMENT fecha (mes,dia,anno)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+<!ELEMENT cliente (direccion)>
+<!ATTLIST cliente cliente_id CDATA ID #REQUIRED
+            nombre CDATA #REQUIRED
+            telefono CDATA #REQUIRED>
+
+<!ELEMENT direccion (nombre_via,numero,localidad,provincia,cp,pais)>
+<!ELEMENT nombre_via (#PCDATA)>
+<!ATTLIST nombre_via tipovia (calle|avenida|plaza|carretera) "calle">
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT apunte (concepto)>
+<!ATTLIST apunte descuento (promocion|regular) "regular" CDATA #IMPLIED>
+<!ATTLIST apunte precio CDATA #REQUIRED>
+<!ATTLIST apunte moneda CDATA #FIXED "euro">
+<!ELEMENT concepto (#PCDATA)>
+<!ATTLIST concepto cantidad CDATA #IMPLIED>

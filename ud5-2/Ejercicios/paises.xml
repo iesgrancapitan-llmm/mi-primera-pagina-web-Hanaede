@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises [
+    <!ELEMENT paises (pais*)>
+    <!ELEMENT pais (nombre, (unionEuropea|otan)*)>
+    <!-- añadimos los parentesis y ponemos la tuberia para que pueda 
+        evitar poner un elemento, le ponemos asterisco para poder poner 
+        los dos elementos si nos hiciera falta-->
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT unionEuropea EMPTY>
+    <!ELEMENT otan EMPTY>
+]>
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <unionEuropea />
+        <otan />
+    </pais>
+    <pais>
+        <nombre>Noruega</nombre>
+        <otan />
+    </pais>
+    <pais>
+        <nombre>Austria</nombre>
+        <unionEuropea />
+    </pais>
+</paises>

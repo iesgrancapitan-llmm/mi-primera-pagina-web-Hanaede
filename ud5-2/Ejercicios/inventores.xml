@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+    <!ELEMENT inventores (inventor*)>
+    <!ELEMENT inventor EMPTY>
+    <!ATTLIST inventor invento CDATA #REQUIRED>
+    <!ATTLIST inventor nombre ID #REQUIRED>
+]>
+<inventores>
+    <inventor nombre="RobertAdler" invento="Mando a distancia" />
+    <inventor nombre="LaszloJosefBiro" invento="Bolígrafo" />
+    <inventor nombre="JosephineGarisCochran" invento="Lavaplatos" />
+    <inventor nombre="inventado" invento="Fuego" />
+    <!-- quitamos los espacios del atributo nombre para quitar errores.
+    Añadimos un parentesis con inventor con * en inventores para poner mas de uno
+    Añadimos nombre en el ultimo inventor ya que es requerido-->
+</inventores>

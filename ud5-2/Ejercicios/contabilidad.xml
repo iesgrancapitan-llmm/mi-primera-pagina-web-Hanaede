@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contabilidad [
+    <!ELEMENT contabilidad (apunte*)>
+    <!-- cambiamos los elementos que había por apunte y *-->
+    <!ELEMENT apunte ((ingreso | gasto)*, fecha, cantidad, concepto)>
+    <!-- añadimos los elementos que formaran apunte-->
+    <!ELEMENT ingreso (#PCDATA)>
+    <!-- añadimos la descripcion de ingreso-->
+    <!ELEMENT gasto (#PCDATA)>
+    <!-- añadimos la descripcion de gasto-->
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT concepto (#PCDATA)>
+]>
+<contabilidad>
+    <apunte>
+        <ingreso />
+        <fecha>24 de febrero de 2011</fecha>
+        <cantidad>1800,00 €</cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2011</fecha>
+        <cantidad>74,25 €</cantidad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
+</contabilidad>

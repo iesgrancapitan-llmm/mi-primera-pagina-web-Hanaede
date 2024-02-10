@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+<bicicleta velocidad="v&lt;100km/h" />
+<!--Añadimos &lt; para quitar el mayor del atributo -->
+<patinete velocidad_maxima="50 km/h"/>
+<!-- añadimos un guion bajo entre velocidad y maxima para crear el atributo
+     Cerramos la etiqueta patinete y le ponemos/ ya que la etiqueta no tiene contenido-->
+</mediosDeTransporte> 

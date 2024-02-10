@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flores [
+<!ELEMENT flores (flor+)>
+<!ELEMENT flor (#PCDATA)>
+]>
+<!-- Cerramos los corchetes que son obligatorios en el doctype-->
+<flores>
+    <flor></flor>
+    <!-- añadomos la etiqueta flor para que no de error-->
+</flores>

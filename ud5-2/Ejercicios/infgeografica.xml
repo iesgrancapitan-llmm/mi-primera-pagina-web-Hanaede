@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia_mundial>
+    <!-- Etiqueta mal formada-->
+ <pais>
+ <pais>España</pais>
+ <continente>Europa</continente>
+ <capital>Madrid</capital>
+ <!-- Atributo en la etiqueta final y mal colocado-->
+ </pais>
+ </geografia_mundial>
+ <!-- cierre de etiqueta mal puesto-->

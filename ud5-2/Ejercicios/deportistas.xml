@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte> Atletismo </deporte> 
+        <!--Cierre de la etiqueta de inicio y creacion de la etiqueta final-->
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista>
+        <deporte> Natación </deporte>
+        <!--Cierre de la etiqueta de inicio y creacion de la etiqueta final-->
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
