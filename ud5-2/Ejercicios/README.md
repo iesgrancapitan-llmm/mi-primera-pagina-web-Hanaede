@@ -24,8 +24,6 @@ Completar el contenido del documento para que el texto completo sea el siguiente
 4 Escribe un documento XML y su representación en forma de árbol, de la 
 información recogida en una carta de desayunos de un restaurante.
 - [Ejercicio4](ejercicio4Restaurante.xml)
-- ![code beautify 1](codebeautify1.png)
-- ![Code beautify 2](codebeautify2.png)
   
 5 Escribe un documento XML para recoger la siguiente información sobre árboles: 
     Acer monspessulanum 
