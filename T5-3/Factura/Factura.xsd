@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definición tipos -->
+  <xs:element name="Factura" type="FacturaType"/>
+
+  <!-- Tipo para factura -->
+  <xs:complexType name="FacturaType">
+    <xs:sequence>
+      <xs:element name="cabecera" type="CabeceraType"/>
+      <xs:element name="apunte" type="ApunteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo para cabecera -->
+  <xs:complexType name="CabeceraType">
+    <xs:sequence>
+      <xs:element name="fecha" type="FechaType"/>
+      <xs:element name="cliente" type="ClienteType"/>
+    </xs:sequence>
+    <xs:attribute name="factura_id" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Tipo para fecha -->
+  <xs:complexType name="FechaType">
+    <xs:choice>
+      <xs:sequence>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="dia" type="xs:string"/>
+        <xs:element name="anno" type="xs:string"/>
+      </xs:sequence>
+      <xs:sequence>
+        <xs:element name="dia" type="xs:string"/>
+        <xs:element name="mes" type="xs:string"/>
+        <xs:element name="anno" type="xs:string"/>
+      </xs:sequence>
+    </xs:choice>
+  </xs:complexType>
+
+  <!-- Tipo para el cliente -->
+  <xs:complexType name="ClienteType">
+    <xs:sequence>
+      <xs:element name="direccion" type="DireccionType"/>
+    </xs:sequence>
+    <xs:attribute name="cliente_id" type="xs:string" use="required"/>
+    <xs:attribute name="nombre" type="xs:string"/>
+    <xs:attribute name="telefono" type="xs:string"/>
+  </xs:complexType>
+
+  <!-- Tipo para dirección -->
+  <xs:complexType name="DireccionType">
+    <xs:sequence>
+        <xs:element name="nombre_via">
+            <xs:complexType>
+                <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="tipovia" type="TipoViaType" default="Calle"/>
+                </xs:extension>
+                </xs:simpleContent>
+            </xs:complexType>
+        </xs:element>          
+      <xs:element name="numero" type="xs:string"/>
+      <xs:element name="localidad" type="xs:string"/>
+      <xs:element name="provincia" type="xs:string"/>
+      <xs:element name="cp" type="xs:string"/>
+      <xs:element name="pais" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo para apunte -->
+  <xs:complexType name="ApunteType">
+    <xs:sequence>
+      <xs:element name="concepto" type="ConceptoType"/>
+    </xs:sequence>
+    <xs:attribute name="descuento" type="DescuentoType" default="regular"/>
+    <xs:attribute name="precio" type="PrecioType" use="required"/>
+    <xs:attribute name="moneda" type="xs:string" fixed="euro"/>
+  </xs:complexType>
+
+  <!-- Tipo para concepto -->
+  <xs:complexType name="ConceptoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="cantidad" type="xs:integer" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Tipo para descuento -->
+  <xs:simpleType name="DescuentoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="promocion"/>
+      <xs:enumeration value="regular"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Tipo para precio -->
+  <xs:simpleType name="PrecioType">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+
+  <!-- Tipo para tipo de Vía -->
+  <xs:simpleType name="TipoViaType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Calle"/>
+      <xs:enumeration value="Avda"/>
+      <xs:enumeration value="Plaza"/>
+      <xs:enumeration value="Carretera"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

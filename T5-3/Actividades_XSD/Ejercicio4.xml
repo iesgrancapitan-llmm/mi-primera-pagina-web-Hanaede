@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./Ejercicio4.xsd"?>
+<personas>
+    <persona fechanacimiento="02/07/92">
+        <nombre>Enrique</nombre>
+        <apellidos>Mariño Jiménez</apellidos>
+        <dni>46372829-F</dni>
+        <descripcion>Estudiante del primer curso del desarrollo de aplicaciones web</descripcion>
+    </persona>
+    <persona fechanacimiento="04/11/98">
+        <nombre>Pepe</nombre>
+        <apellidos>Martínez Salas</apellidos>
+        <dni>77441123-G</dni>
+        <descripcion>Revisor en Iryo</descripcion>
+    </persona>      
+</personas>

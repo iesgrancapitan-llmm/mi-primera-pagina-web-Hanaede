@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./Ejercicio2.xsd"?>
+<casa>
+    <puertacerrada>false</puertacerrada>
+    <ventanaabierta>true</ventanaabierta>
+</casa>

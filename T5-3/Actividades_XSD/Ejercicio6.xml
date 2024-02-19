@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./Ejercicio6.xsd"?>
+<personas>
+    <persona fechanacimiento="02/07/92">
+        <nombre>Enrique</nombre>
+        <apellidos>Mariño Jiménez</apellidos>
+        <dni>46372829-F</dni>
+        <descripcion>Estudiante de primero de desarrollo de DAW</descripcion>
+        <forma_pago tipopago="tarjeta"></forma_pago>
+    </persona>
+    <persona>
+        <nombre>Matías</nombre>
+        <apellidos>Pradillo Hinterberger</apellidos>
+        <dni>77441123-G</dni>
+        <descripcion>Revisor en Iryo</descripcion>
+        <forma_pago tipopago="transferencia"></forma_pago>
+    </persona>      
+</personas>

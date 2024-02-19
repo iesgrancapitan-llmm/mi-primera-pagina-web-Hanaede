@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./Ejercicio5.xsd"?>
+<personas>
+    <persona fechanacimiento="20/05/98">
+        <nombre>Enrique</nombre>
+        <apellidos>Mariño Jiménez</apellidos>
+        <dni>46372829-F</dni>
+        <descripcion>Estudiante de primero de DAW</descripcion>
+        <forma_pago tipopago="tarjeta"></forma_pago>
+    </persona>
+    <persona>
+        <nombre>Pepe</nombre>
+        <apellidos>MArtínez Salas</apellidos>
+        <dni>77345123-G</dni>
+        <descripcion>Revisor en Iryon</descripcion>
+        <forma_pago tipopago="transferencia"></forma_pago>
+    </persona>      
+</personas>
