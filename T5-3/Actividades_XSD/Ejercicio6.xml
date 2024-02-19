@@ -9,8 +9,8 @@
         <forma_pago tipopago="tarjeta"></forma_pago>
     </persona>
     <persona>
-        <nombre>Matías</nombre>
-        <apellidos>Pradillo Hinterberger</apellidos>
+        <nombre>Pepe</nombre>
+        <apellidos>Martínez Salas</apellidos>
         <dni>77441123-G</dni>
         <descripcion>Revisor en Iryo</descripcion>
         <forma_pago tipopago="transferencia"></forma_pago>
