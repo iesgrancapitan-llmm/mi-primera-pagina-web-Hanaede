@@ -1,7 +1,7 @@
 # UD2 A1 Mi primera página Web
 
 ## Hosting GitHub Pages
-[Github Pages](https://probable-adventure-1wk6mgl.pages.github.io/)
+[Github Pages](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
