@@ -1,77 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://stunning-adventure-634vz8r.pages.github.io/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/">
     <title>Mi primera página web</title>
-    <subtitle>Primera página web de un estudiante de 1ºDAW del IES Gran Capitán</subtitle>
     <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/" rel="self"/>
-    <id>https://stunning-adventure-634vz8r.pages.github.io/T4/T4-1/RSS-ATOM.html</id>
+    <id>urn:uuid:7f6a400c-b934-11ee-baab-69960a9b2b48</id>
     <updated>2023-11-19T22:50:00Z</updated>
     <author>
         <name>Enrique Mariño Jiménez</name>
         <email>enriquemarino.j@gmail.com</email>
-        <uri>https://stunning-adventure-634vz8r.pages.github.io/T2/T2-2/tarea1.html</uri>
+        <uri>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/</uri>
     </author>
     <category term="Desarrollo web"/>
+    <rights>Licencia GPL</rights>
 
     <!--Entidades-->
     <entry>
-        <id>https://probable-adventure-1wk6mgl.pages.github.io/</id>
         <title>Mi primera página web</title>
-        <link href="https://probable-adventure-1wk6mgl.pages.github.io/"/>
+        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/"/>
+        <id>urn:uuid:7f6c400c-b934-11ee-baab-68960a9b2b48</id>
+        <updated>2023-11-29T20:50:00Z</updated>
         <author>
             <name>Enrique Mariño Jiménez</name>
         </author>
         <source>
-            <id>https://probable-adventure-1wk6mgl.pages.github.io/</id>
             <title>Mi primera página web</title>
-            <updated>2023-11-29T20:50:00Z</updated>
+            <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/"/>
         </source>
-        <summary>Portforlio</summary>
-        <content type="image/png" src="./img/logo.png"/>
-        <updated>2023-11-19T20:50:00Z</updated>
+        <content type="html">HTML</content>
     </entry>
 
     <entry>
-        <id>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</id>
         <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
         <link href="https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15"/>
+        <id>urn:uuid:60a76c80-d399-11d4-b93C-0003939e0af5</id>
+        <updated>2023-10-25T21:50:00Z</updated>
         <author>
             <name>Enrique Mariño Jiménez</name>
         </author>
         <source>
-            <id>https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15</id>
             <title>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</title>
-            <updated>2023-10-25T21:50:00Z</updated>
+            <link href="https://www.europarl.europa.eu/news/es/agenda/briefing/2024-01-15"/>
         </source>
-        <summary>Destacados del pleno. Estrasburgo, 15-18 de enero 2024</summary>
-        <content type="image/png" src="./img/plenoeuropeo.png"/>
-        <updated>2023-10-25T21:50:00Z</updated>
+        <content type="html">Página web</content>
     </entry>
     
     <entry>
-        <id>https://murciaplaza.com/arteterapia-la-psicologia-del-arte</id>
-        <title>Arteterapia: la psicología del arte</title>
-        <link href="https://murciaplaza.com/arteterapia-la-psicologia-del-arte"/>
+        <title>Guía de ciberseguridad</title>
+        <link href="https://www.incibe.es/sites/default/files/docs/senior/guia_ciberseguridad_para_todos.pdf"/>
+        <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af7</id>
+        <updated>2024-02-20T12:00:00Z</updated>
         <author>
-            <name>Enrique Mariño Jiménez</name>
+            <name>Incibe</name>
         </author>
         <source>
-            <id>https://murciaplaza.com/arteterapia-la-psicologia-del-arte</id>
-            <title>Arteterapia: la psicología del arte</title>
-            <updated>2023-08-12T21:47:00Z</updated>
+            <title>Fuente de informe</title>
+            <link href="http://incibe.es"/>
         </source>
-        <summary>Arteterapia: la psicología del arte</summary>
-        <updated>2023-08-12T21:47:00Z</updated>
+        <summary>Ciberseguridad</summary>
+        <content type="application/pdf" src="https://www.incibe.es/sites/default/files/docs/senior/guia_ciberseguridad_para_todos.pdf"/>
     </entry>
 
     <entry>
-        <id>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</id>
         <title>Nuevas reglas CSS y trucos</title>
         <link href="https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/"/>
+        <id>urn:uuid:60a76c80-d399-11d9-b93C-0003936e0bf7</id>
         <author>
             <name>Enrique Mariño Jiménez</name>
         </author>
         <source>
-            <id>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</id>
             <title>Nuevas reglas CSS y trucos</title>
             <updated>2021-03-13T20:38:00Z</updated>
         </source>

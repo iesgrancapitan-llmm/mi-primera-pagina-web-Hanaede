@@ -48,7 +48,7 @@ Realizarás una entrega de un fichero con formato Atom con los siguientes elemen
 Este es el [servicio de validación de fuentes](https://validator.w3.org/feed/) W3C, un servicio gratuito que verifica la sintaxis de las fuentes Atom o RSS. En la parte inferior veremos el enlace the “This is a valid Atom 1.0 feed.” banner en el que podemos descargar el logo de Atom válido para utilizarla en nuestra web. A continuación nos ofrece un elemento de HTML para incluir en nuestra web que permitirá al usuario comprobar la validación de nuestro RSS.
 
 Adjunta una captura de pantalla con la validación del feed en el validador de W3C.
-(![ATOM VALIDATOR](ATOM1_VALIDATOR.png))
+![ATOM VALIDATOR](ATOMVALIDADO.png)
 
 ## Publicación
 Para hacerlo accesible a los demás, y una vez escrito y validado nuestro archivo hay que subirlo al servidor Web. Usa el repositorio con el hosting activo (Tarea UD3 A6. Mi sitio. Github pages) Para ello:
