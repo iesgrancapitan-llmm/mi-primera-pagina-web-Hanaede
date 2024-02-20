@@ -72,6 +72,12 @@ Utiliza el lector/agregador feedly para añadir el fichero RSS que has creado.
 
 Muestra una captura del contenido de la sindicación del contenido
 
+##### Introducción del enlace del GitHub Page para la sindicalización
+![ATOM1](ATOM1.png)
+##### Matching feeds
+![ATOM2](ATOM2.png)
+##### Feed
+![ATOM3](ATOM3.png)
 
 De interés:
 - https://datatracker.ietf.org/doc/html/rfc4287
