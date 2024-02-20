@@ -53,6 +53,9 @@ elemento <a> de HTML para incluir en nuestra web que permitirá al usuario compr
 validación de nuestro RSS. 
   
   Adjunta una captura de pantalla con la validación del feed en el validador de W3C.
+
+##### RSS Validator
+![RSS Validator](RSS_VALIDATOR.png)
   
 ## Publicación
   Para hacerlo accesible a los demás, y una  vez escrito y validado nuestro archivo hay que subirlo al servidor Web. Usa el repositorio con el hosting activo (Tarea UD3 A6. Mi sitio. Github pages) Para ello:
@@ -90,15 +93,6 @@ Utiliza el lector/agregador  feedly para añadir el fichero RSS que has creado.
 ##### Feed
 ![Feed](FEEDLY3.png)
 
-##### RSS Validator
-![RSS Validator](RSS_VALIDATOR.png)
-
-
-
-
-
-
-  
 De interés:
 - https://www.w3schools.com/xml/xml_rss.asp
 - https://www.w3schools.com/xml/rss_tag_skipDays.asp
