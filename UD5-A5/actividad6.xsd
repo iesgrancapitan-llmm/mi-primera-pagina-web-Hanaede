@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Definición de elementos simples -->
+    <xs:element name="simpleElement" type="xs:string"/>
+
+    <!-- Definición de atributos -->
+    <xs:attribute name="sampleAttribute" type="xs:string"/>
+
+    <!-- Definición de elementos complejos -->
+    <xs:element name="complexElement">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="childElement" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definición de los tipos simples -->
+    <xs:simpleType name="CustomSimpleType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Definición de los tipos complejos -->
+    <xs:complexType name="CustomComplexType">
+        <xs:sequence>
+            <xs:element name="childElement" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="customAttribute" type="xs:string"/>
+    </xs:complexType>
+
+    <!-- Elemento raíz -->
+    <xs:element name="rootElement" type="CustomComplexType"/>
+</xs:schema>
