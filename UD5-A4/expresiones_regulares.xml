@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="expresiones_regulares.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<tarea>
+    <dni>12345678Z</dni>
+    <!-- <dni>12345678z</dni> -->
+    <dni>12345678 Z</dni>
+    <dni>12345678-Z</dni>
+
+    <!-- <matricula>1234 ABC</matricula> -->
+    <!-- <matricula>1234 QBC</matricula> -->
+    <!-- <matricula>1234 MNÑ</matricula> -->
+    <matricula>1234 BCD</matricula>
+    <matricula>5678 ZYX</matricula>
+
+    <mac>AB-CD-F1-23-45-67</mac>
+    <mac>AB:CD:F1:23:45:67</mac>
+    <mac>ABCDF1234567</mac>
+    <mac>AB:CDF1:23:45-67</mac>
+
+    <ip>0.0.0.0</ip>
+    <ip>14.255.1.2</ip>
+    <!-- <ip>09.1.2.3</ip> -->
+    <!-- <ip>1.260.4.5</ip> -->
+    <!-- <ip>09.6.5.4</ip> -->
+    <!-- <ip>1.2.3.011</ip> -->
+
+    <dosDecimalesMaximo>1234</dosDecimalesMaximo>
+    <dosDecimalesMaximo>1234.32</dosDecimalesMaximo>
+    <!-- <dosDecimalesMaximo>1234.</dosDecimalesMaximo> -->
+    <!-- <dosDecimalesMaximo>1234.045</dosDecimalesMaximo> -->
+    <dosDecimalesMaximo>1234564123.21</dosDecimalesMaximo>
+    <dosDecimalesMaximo>1234.7</dosDecimalesMaximo>
+
+</tarea>

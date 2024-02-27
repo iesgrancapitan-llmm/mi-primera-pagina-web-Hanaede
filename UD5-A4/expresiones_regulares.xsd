@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="dniType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}[ \-]?[a-zA-Z]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="matriculaType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{4}( )[^AEIOUQÑ]{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="macType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9A-F]{2}([-:]?[0-9A-F]{2}){5}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ipType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="dosDecimalesMaximoType">
+        <xs:restriction base="xs:decimal">
+            <xs:pattern value="\d+(\.\d{1,2})?"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="regexpType">
+        <xs:sequence>
+            <xs:element name="dni" maxOccurs="unbounded" type="dniType"/>
+            <xs:element name="matricula" maxOccurs="unbounded" type="matriculaType"/>
+            <xs:element name="mac" maxOccurs="unbounded" type="macType"/>
+            <xs:element name="ip" maxOccurs="unbounded" type="ipType"/>
+            <xs:element name="dosDecimalesMaximo" maxOccurs="unbounded" type="dosDecimalesMaximoType"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="tarea" type="regexpType"></xs:element>
+</xs:schema>
