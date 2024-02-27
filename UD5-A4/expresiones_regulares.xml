@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="expresiones_regulares.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-
 <tarea>
     <dni>12345678Z</dni>
     <!-- <dni>12345678z</dni> -->
@@ -31,5 +30,4 @@
     <!-- <dosDecimalesMaximo>1234.045</dosDecimalesMaximo> -->
     <dosDecimalesMaximo>1234564123.21</dosDecimalesMaximo>
     <dosDecimalesMaximo>1234.7</dosDecimalesMaximo>
-
 </tarea>
