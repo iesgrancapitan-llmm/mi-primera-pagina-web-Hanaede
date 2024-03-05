@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/">
+    <title>Mi primera página web</title>
+    <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/" rel="self"/>
+    <id>urn:uuid:7f6a400c-b934-11ee-baab-69960a9b2b48</id>
+    <updated>2023-11-19T22:50:00Z</updated>
+    <author>
+        <name>Enrique Mariño Jiménez</name>
+        <email>enriquemarino.j@gmail.com</email>
+        <uri>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/</uri>
+    </author>
+    <category term="Desarrollo web"/>
+    <rights>Licencia GPL</rights>
+
+    <!--Entidades-->
+    <entry>
+        <title>Mi primera página web</title>
+        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/"/>
+        <id>urn:uuid:7f6c400c-b934-11ee-baab-68960a9b2b48</id>
+        <updated>2023-11-29T20:50:00Z</updated>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+        </author>
+        <source>
+            <title>Mi primera página web</title>
+            <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/"/>
+        </source>
+        <summary>Mi primera página web</summary>
+        <content type="html">HTML</content>
+    </entry>
+
+    <entry>
+        <id>https://dev.to/</id>
+        <title>Comunidad Dev</title>
+        <link href="https://dev.to/"/>
+        <author>
+            <name>Mainul Hasan</name>
+            <email>mainulhasan@gmail.com</email>
+        </author>
+        <source>
+            <id>https://dev.to/</id>
+            <title>Comunidad Dev</title>
+            <updated>2024-03-19T19:45:00Z</updated>
+        </source>
+        <summary>Comunidad específica para temas de desarrollo</summary>
+        <content type="xhtml">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <h1>Namespaces in XML 1.0</h1>
+                <ul>
+                    <li>XML namespaces provide a simple method for qualifying element and attribute names used in Extensible Markup Language documents by associating them with namespaces identified by URI references</li>
+                    <li>An expanded name is a pair consisting of a namespace name and a local name.</li>
+                    <li>URI references can contain characters not allowed in names, and are often inconveniently long, so expanded names are not used directly to name elements and attributes in XML documents</li>
+                </ul>
+            </div>
+        </content>
+        <updated>2024-04-11T21:36:00Z</updated>
+    </entry>
+    
+    <entry>
+        <id>https://www.elmundo.es/internacional/2024/03/04/65e5debcfdddff1a458b458c.html</id>
+        <title>Francia aprueba el aborto</title>
+        <link href="https://www.elmundo.es/internacional/2024/03/04/65e5debcfdddff1a458b458c.html"/>
+        <author>
+            <name>El mundo</name>
+        </author>
+        <source>
+            <id>https://www.elmundo.es/internacional/2024/03/04/65e5debcfdddff1a458b458c.html</id>
+            <title>Francia aprueba el aborto</title>
+            <updated>2024-03-20T04:14:00Z</updated>
+        </source>
+        <summary>Fancia aprueba el aborto</summary>
+        <content type="image/png" src="https://drive.google.com/file/d/1It0XXKYIxzQ64jQWv4QoIEBZnnUUrjwQ/view?usp=sharing"/>
+        <updated>2024-03-01T08:16:00Z</updated>
+    </entry>
+
+    <entry>
+        <title>Guía de ciberseguridad</title>
+        <link href="https://www.incibe.es/"/>
+        <id>https://www.incibe.es/</id>
+        <author>
+            <name>Incibe</name>
+        </author>
+        <source>
+            <id>https://www.incibe.es/</id>
+            <title>Fuente de informe</title>
+            <link href="http://incibe.es"/>
+        </source>
+        <summary>Ciberseguridad</summary>
+        <link rel="enclosure"
+            xml:lang="es"
+            title="ciberseguridad"
+            type="application/pdf"
+            hreflang="es"
+            href="https://www.incibe.es/sites/default/files/docs/senior/guia_ciberseguridad_para_todos.pdf"/>
+        <updated>2024-01-20T08:12:00Z</updated>
+    </entry>
+
+    <entry>
+        <title>Nuevas reglas CSS y trucos</title>
+        <link href="https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/"/>
+        <id>urn:uuid:60a76c80-d399-11d9-b93C-0003936e0bf7</id>
+        <author>
+            <name>Enrique Mariño Jiménez</name>
+            <email>emj@gmail.com</email>
+        </author>
+        <source>
+            <id>https://openwebinars.net/blog/nuevas-reglas-css-y-trucos-para-sacarles-mas-partido/</id>
+            <title>Nuevas reglas CSS y trucos</title>
+            <updated>2021-03-13T20:38:00Z</updated>
+        </source>
+        <summary>Nuevas reglas CSS y trucos</summary>
+        <link rel="enclosure"
+              type="audio/mpeg"
+              title="MP3"
+              href="https://www.youtube.com/watch?v=8aryHZ8Z9WY&amp;ab_channel=midulive"
+              length="1234"></link>
+        <updated>2021-03-13T20:38:00Z</updated>
+    </entry>
+</feed>
