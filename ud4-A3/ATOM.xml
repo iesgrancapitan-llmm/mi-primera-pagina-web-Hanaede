@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/">
     <title>Mi primera página web</title>
     <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/" rel="self"/>
-    <id>urn:uuid:7f6a400c-b934-11ee-baab-69960a9b2b48</id>
+    <id>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/</id>
     <updated>2023-11-19T22:50:00Z</updated>
     <author>
         <name>Enrique Mariño Jiménez</name>
@@ -16,7 +16,7 @@
     <entry>
         <title>Mi primera página web</title>
         <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/"/>
-        <id>urn:uuid:7f6c400c-b934-11ee-baab-68960a9b2b48</id>
+        <id>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Hanaede/</id>
         <updated>2023-11-29T20:50:00Z</updated>
         <author>
             <name>Enrique Mariño Jiménez</name>
