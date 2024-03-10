@@ -2,10 +2,10 @@
 
 - Entrega los documentos generados debidamente referenciados
 
-[Alumnos xml](./Alumnos.xml)
+[Alumnos xml](./alumnos.xml)
 
-[Alumnos dtd](./AlumnosDTD.dtd)
+[Alumnos dtd](./alumnosDTD.dtd)
 
-[Coches](./coches.xml)
+[Coches](./coche.xml)
 
 [Colegio](./colegio.xml)
